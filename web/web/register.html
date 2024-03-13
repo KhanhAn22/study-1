@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thư Viện icon  -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <form id="form1" action="login.html">
+        <div class="register">
+            <div class="title-big">
+            <p>
+                <a href="home.html" class="text-decoration-none">
+                    <i></i>Du Lịch Tây Nam Bộ</p>
+                </a>
+            </p>
+            <h1 class='title'> <b>ĐĂNG KÝ</b> </h1>
+            </div>
+            <div class="form-group">
+                <label for="fullname"><p>Tên đầy đủ</p></label>
+                <input id="fullname" type="text"  placeholder="Vui lòng nhập họ tên" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="email"><p>Email</p></label>       
+                <input id="email" type="text" class="emailInput" placeholder="VD: user@email.com" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password"><p>Mật Khẩu</p></label>
+                <input id="password" type="password" class="pwInput" placeholder="Tối thiểu chứa 8 kí tự" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px; ">
+                <label for="confirm-password"><p>Nhập lại mật khẩu </p> </label>            
+                <input id="confirm-password" type="password"  placeholder="Nhập lại mật khẩu" >
+                <span class="form-message"></span>
+            </div>
+            <!-- <p>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="#">Điều khoảng & Quyền riêng tư của chúng tôi.</a></p> -->
+             <p class="check"><input  type="checkbox" > Đồng ý điều khoản chúng tôi</p> 
+             <button class="form-submit">Đăng ký</button>
+            <p class="dacotk">Đã có tài khoản ? <a href="login.html">Đăng nhập</a> </p>    
+        </div>
+    </form>         
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <!-- Thư Viện icon  -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- liên kết css  -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <form id="form2" action="home.html" onsubmit="return validate()">
+        <div class="sign-in">
+            <div class="title-big">
+                <p>
+                    <a href="home.html" class="text-decoration-none">
+                        <i></i>Du Lịch Tây Nam Bộ</p>
+                </a>
+
+                <h1 class='title'> <b>ĐĂNG NHẬP</b> </h1>
+            </div>
+            <div class="form-group">
+                <label for="email"><p>Email</p></label>
+                <input id="email" type="text" placeholder="Tên đăng nhập hoặc email">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password"><p>Mật Khẩu</p></label>
+                <input id="password" type="password" placeholder="Nhập mật khẩu">
+                
+            </div>
+            <!-- <p>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="#">Điều khoảng & Quyền riêng tư của chúng tôi.</a></p> -->
+            <input class="check" type="checkbox"> Lưu mật khẩu
+            <button type="submit" class="form-submit">Đăng nhập</button>
+            <p class="dacotk">Chưa có tài khoản ? <a href="register.html">Đăng ký</a></p>
+        </div>
+    </form>
+</body>
+
+</html>

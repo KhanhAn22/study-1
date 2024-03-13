@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>Chi Tiết Tour</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Start Main Top -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="custom-select-box">
+                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
+							<option>đ VND</option>
+							<option>$ USD</option>
+							<option>€ EUR</option>
+						</select>
+                    </div>
+                    <div class="right-phone-box">
+                        <p>Call VN:- <a href="#"> +84 900 800 100</a></p>
+                    </div>
+                    <div class="our-link">
+                        <ul>
+                            <li><a href="shop.html"><i class="fas fa-location-arrow"></i> Tour</a></li>
+                            <li><a href="contact.html"><i class="fas fa-headset"></i>Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="login-box">
+                            <li><a href="login.html"><i class="fa fa-user s_color"> </i>  Đăng Nhập</a></li>
+					</div>
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> Giảm 20% giá khi đặt trên 2 vé đi những tour dưới 1 triệu.
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Giảm ngay 30% khi đặt tour trên 2 triệu từ 5 vé trở lên!
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Đặt vé ngay để đi Côn Đảo cùng gia đình và bạn bè
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Giảm 10% khi đặt tour 2 vé trở lên
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i>Đặt tour ngay để được đi du lịch trong những ngày lễ nào!
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Top -->
+
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="home.html"><img src="images/logo.jpg" width="200px"></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a class="nav-link" href="home.html">Trang chủ</a></li>
+                        <li class="dropdown">
+                            <li  class="nav-item active"><a href="shop.html" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Tour du lịch</a></li>                            <ul class="dropdown-menu">
+                                <li  class="nav-item active"><a href="cart.html">Giỏ hàng</a></li>
+                                <li><a href="my-account.html">Tài khoản</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Thông tin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="danhgia.html">Đánh giá</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Tin tức</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu">
+							<a href="cart.html">
+								<i class="fa fa-shopping-bag" onclick="gotoCart()"></i>
+								<span class="badge"></span>
+								<p>Giỏ hàng</p>
+							</a>
+						</li>
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+
+  <!-- Start All Title Box -->
+  <div class="all-title-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>CHI TIẾT TOUR</h2>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Tour</a></li>
+                    <li class="breadcrumb-item active">Chi tiết Tour </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End All Title Box -->
+    <!-- Start Shop Detail  -->
+    <div class="shop-detail-box-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-6">
+                    <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"> <img class="d-block w-100" src="images/sp5-1.png" alt="First slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-2.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-3.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-4.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-5.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-6.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-7.png" alt="Second slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-8.png" alt="Third slide"> </div>
+                            <div class="carousel-item"> <img class="d-block w-100" src="images/sp5-9.png" alt="Third slide"> </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev"> 
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+						<span class="sr-only">Previous</span> 
+					</a>
+                        <a class="carousel-control-next" href="#carousel-example-1" role="button" data-slide="next"> 
+						<i class="fa fa-angle-right" aria-hidden="true"></i> 
+						<span class="sr-only">Next</span> 
+					</a>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-1" data-slide-to="0" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-1.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="1" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-2.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="2" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-3.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="3" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-4.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="4" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-5.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="5">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-6.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="6">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-7.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="7" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-8.png" alt="" />
+                            </li>
+                            <li data-target="#carousel-example-1" data-slide-to="8" class="active">
+                                <img class="d-block w-100 img-fluid" src="images/sp5-9.png" alt="" />
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6">
+                    <div class="single-product-details">
+                        <h2>Cần Thơ-Cồn Sơn-Sóc Trăng-Bạc Liêu-Đất Mũi Cà Mau</h2>
+                        <h5>3.880.000VND</h5>
+						<h4>Chi tiết tour:</h4>
+                        <p>Điểm nổi bật:Tour Miền Tây Lễ 30/4 & 01/5/2021, tham quan du lịch cộng đồng Cồn Sơn, một điểm không thể thiếu khi đến Cần Thơ, trải nghiệm làm bánh dân gian ngày Tết, xem biểu diễn cá lóc bay, tham quan và thưởng thức trái cây tại vườn. Và hành trình về với cực Nam tổ quốc, vượt qua các cánh rừng ngập mặn chụp hình cùng cột mốc tọa độ Quốc Gia - Mũi Cà Mau. Trên đường ghé Sóc Trăng tìm hiểu về cuộc sống người Khơme Nam Bộ với hệ thống chùa Khơme lớn nhất miền Tây. Đến Bạc Liêu tham quan chụp hình và nghe kể lại các giai thoại về Vị Công Tử nổi tiếng một thời của xứ nam Kỳ Lục tỉnh - Công Tử Bạc Liêu, kết hợp với tham quan chợ nổi Cái Răng, chợ nổi lớn nhất miền Tây, tàu xuôi dòng sông Cần Thơ ngắm nhìn toàn cành sông nước miệt Vườn. Chắc hẳn là một hành trình đầy thú vị đối với du khách khi đến với Miền Tây.</p>
+                        <p>NGÀY 01: CẦN THƠ – NHÀ CỔ BÌNH THỦY - CỒN SƠN  (Ăn chiều)</p>
+                        <p>Trưa: Xe và Hướng dẫn Viên Đất Chín Rồng Travel, đón Quý khách tại sân bay hoặc điểm hen, bắt đầu chương trình Tour Miền Tây Lễ 30/4 & 01/5/2021.</p>
+                        <p>14h00: Xe và Hướng dẫn viên đưa quý khách đi tham quan:</p>
+                        <p>14h30: Quý khách tham quan Nhà Cổ Bình Thủy – ngôi nhà hơn 100 năm tuổi có sự giao thoa hài hoà giữa hai nét văn hoá kiến trúc Đông Tây, ngoài ra ngôi nhà còn là phim trường chính của những bộ phim nổi tiếng như: Người Đẹp Tây Đô, Những Nẻo Đường Phù Sa, Người Tình…</p>
+                        <p>15h00: Đoàn sẽ tiếp tục di chuyển đến bến phà Cô Bắc, xuống đò xuôi dòng sông Hậu đưa Qúy khách đến với Làng cá bè, Quý khách tham quan tìm hiểu các loài cá đặc biệt sống trên sông Mekong như cá bắn nước, cá hô (thủy quái sông Mekong), cá trê hồng… Và tham quan quy trình nuôi cá trên bè của các hộ ngư dân, tham gia cho cá ăn, chụp hình lưu niệm.</p>
+                        <p>15h30: Tàu đưa đoàn đến Cồn Sơn, Quý khách sẽ  được  người dân Cồn Sơn mến khách chào đón bằng loại nước mát đặc trưng được nấu từ lá cây Sa Kê hoặc hoa Đậu biếc trong vườn nhà. Quý khách tản bộ hít thở không khí trong lành của làng quê ngay giữ sông Hậu và cùng trài nghiệm các hoạt động du lịch công đồng tại Cồn Sơn như:</p>
+                        <p>Trải nghiệm làm các loại bánh dân gian mang đậm chất Nam Bộ.</p>
+                        <p>Đoàn di chuyển tham quan một trong những nhà vườn ổi/nhãn/bưởi hay vú sữa tùy vào từng thởi điểm mùa vụ.</p>
+                        <p>Khám phá tuyệt chiêu “cá lóc bay” của nông dân sông Hậu.</p>
+                        <p>17h00: Tàu đưa Quý khách trở về đất liền, HDV đưa quý khách về lại khách sạn nghỉ ngơi.</p>
+                        <p>19h00: Đoàn dùng cơm tại nhà hàng. Sau đó tự do khám phá thành phố Cần Thơ về đêm. Ngủ đêm tại TP Cần Thơ.</p>
+                        <p>NGÀY 02: CẦN THƠ - SÓC TRĂNG – BẠC LIÊU – CÀ MAU  (Ăn sáng, trưa, chiều)</p>
+                        <p>08h00: Đoàn khởi hành đi Cà Mau. Quý khách sẽ theo quốc lộ 1 qua địa phận của các tỉnh: Hậu Giang, Sóc Trăng, Bạc Liêu. Trên đường đi đoàn tham quan:</p>
+                        <p>Chùa Đất Sét:  Còn gọi là Bửu Sơn Kỳ Hương Tự là một công trình sáng tạo nghệ thuật điêu luyện của cả một đời người. Nơi “tu tâm” lý tưởng của mọi quý khách, thoáng mát, yên tĩnh mà vẫn toát lên tinh thần nhân bản, ấm áp nghĩa tình như con người của quê hương Sóc Trăng.</p>
+                        <p>Chùa Dơi: Chùa Dơi được xếp hạng là Di tích danh thắng cấp Quốc gia đầu tiên ở Sóc Trăng. Đây là ngôi chùa của đồng bào Khmer, có kiến trúc, hoa văn đặc sắc, to đẹp vào bậc nhất trong số 92 ngôi chùa Khmer của tỉnh.</p>
+                        <p>Trưa: Quý khách dùng cơm trưa. Khởi hành đi Bạc Liêu, trên đường đi, dừng chân mua sắm đặc sản bánh Pía Vũng Thơm ở Sóc Trăng.</p>
+                        <p>Tiếp tục hành trình đến vùng đất Bạc Liêu tham quan Nhà công tử Bạc Liêu - nghe những giai thoại hết sức thú vị về Công Tử Bạc Liêu</p>
+                        <p>Cánh đồng điện gió Bạc Liêu – Quý khách sẽ được tham quan cánh đồng điện gió – Nơi được mệnh danh là Hà Lan của Việt Nam (Hiện chỉ có 2 nơi có cánh đồng điện gió và ở Bạc Liêu là lớn nhất).</p>
+                        <p>Chiều: Đến Cà Mau, quý khách nhận phòng nghỉ ngơi, dùng cơm chiều và tự do dạo chợ đêm Cà Mau, thưởng thức đặc sản địa phương tự túc.</p>
+                        <p>NGÀY 03: CÀ MAU - ĐẤT MŨI – CẦN THƠ  (Ăn sáng, trưa, ĂN CHIỀU TỰ TÚC)</p>
+                        <p>07h30: Đoàn khởi hành đi Đất Mũi, đoàn đi qua các huyện Cái Nước, Năm Căn, Ngọc Hiển và chinh phục những Km cuối cùng trên bảng đồ Việt nam.</p>
+                        <p>10h00: Vườn quốc gia Mũi Cà Mau, Tham quan hệ sinh thái rừng ngập mặn – Hình ảnh cây đước, cây mắm…. Cùng với hệ sinh vật phong phú, đa dạng của các loài chim, tất cả đã tạo nên bức tranh muôn màu trù phú vùng đất cuối bản đồ Việt Nam. Hướng dẫn viên sẽ giới thiệu quá trình hình thành vùng đất Mũi Cà Mau, chụp hình lưu niệm Cột Mốc tọa độ GPS 0001 tại Đất Mũi, biều tượng Mũi Cà Mau, điểm cuối đường Hồ Chí Minh và cột cờ Hà Nội - Từ đây quý du khách sẽ ngắm toàn cảnh Đất Mũi, với những cánh rừng ngập mặn bất tận. </p>
+                        <p>11h30: Quý khách dùng cơm trưa tại nhà hàng Đất Mũi.</p>
+                        <p>13h00: Đoàn khởi hành về Cần Thơ.</p>
+                        <p>Chiều: Đoàn đến Cần Thơ, Quý khách về khách sạn nghỉ ngơi. Tự túc ăn chiều hay tự do khám phá các đặc sản của vùng đất Tây Đô. Ngủ đêm tại TP Cần Thơ.</p>
+                        <p>NGÀY 04: CẦN THƠ – CHỢ NỔI – VƯỜN TRÁI CÂY – TIỄN SÂN BAY  (Ăn sáng)</p>
+                        <p>07h00: HDV đưa đoàn tham quan Chợ nổi Cái Răng, tàu sẽ len lỏi đưa du khách tìm hiểu nét văn hóa độc đáo của người dân vùng sông nước, đó là hình thức họp chợ trên sông. Du khách sẽ bị thu hút bởi âm thanh náo nhiệt từ sự buôn bán tấp nập, nhộn nhịp của rất nhiều ghe xuồng đầy ấp trái cây, rau quả từ các nhà vườn đang buôn bán trên chợ nổi, hoặc sẽ thấy rất lạ và vui mắt khi nhìn thấy những sản phẩm cây trái đồng bằng được treo lủng lẳng trên cây sào mà người ta gọi là Cây Bẹo, tại đây Quý khách có thể mua một ít trái cây và thưởng thức ngay trên thuyền hoặc mang về làm quà.</p>
+                        <p>08h00: Tàu sẽ đưa Quý khách sẽ đến lò hủ tiếu Sáu Hoài. Tham quan mô hình sản xuất hủ tiếu truyền thống. Tại đây còn nổi tiếng với món bánh Pizza được làm từ hủ tiếu, rất hấp dẫn và thu hút du khách đến đây thưởng thức và mua về làm quà.</p>
+                        <p>09h00: Tiếp tục, xe đưa đoàn đi tham quan vườn trái cây, tím hiểu đời sống thanh bình của người dân, tự tay hái trái cây và thưởng thức trái cây tại nhà vườn.</p>
+                        <p>10h00: Xe đưa Quý khách đi mua sắm các đặc sản địa phương.</p>
+                        <p>Trưa: Đến giờ, xe đưa đoàn ra sân bay làm thù tục đáp chuyến bay về nơi khởi hành (Quý khách bay chuyến chiều tự túc phương tiện ra sân bay) hoặc đưa về khách sạn. HDV ĐẤT CHÍN RỒNG TRAVEL gửi lời cảm ơn, chia tay, Kết thúc Tour Miền Tây Lễ 30/4 & 01/5/2021.</p>
+                        <ul>
+                            <li>
+                                <div class="form-group quantity-box">
+                                    <span>Số lượng: <input id="sp5" type="number" min="0" max="100" size="3" value="0">
+                                        <button onclick="addCart('sp5')">Đặt Tour</button></span>
+                                </div>
+                            </li>
+						</ul>
+
+						<div class="price-box-bar">
+							<div class="cart-and-bay-btn">
+								<a class="btn hvr-hover" data-fancybox-close="" href="#">Buy New</a>
+								<a class="btn hvr-hover" data-fancybox-close="" href="#"></a>
+							</div>
+						</div>
+
+						<div class="add-to-btn">
+							<div class="add-comp">
+								<a class="btn hvr-hover" href="#"><i class="fas fa-heart"></i> Add to wishlist</a>
+								<a class="btn hvr-hover" href="#"><i class="fas fa-sync-alt"></i> Add to Compare</a>
+							</div>
+							<div class="share-bar">
+								<a class="btn hvr-hover" href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+								<a class="btn hvr-hover" href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+								<a class="btn hvr-hover" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+								<a class="btn hvr-hover" href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a>
+								<a class="btn hvr-hover" href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Cart -->
+
+    <!-- Start Instagram Feed  -->
+    <div class="instagram-box">
+        <div class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp1-4.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">  
+                <div class="ins-inner-box">
+                    <img src="images/sp1-3.1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp3-1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp4-4 .1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp8-5.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp5-1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp6-1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp3-7.1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp8-1.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/sp2.png" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Instagram Feed  -->
+
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>THỜI GIAN HOẠT ĐỘNG </h3>
+							<ul class="list-time">
+								<li> Thứ Hai - Thứ Sáu: 08:00am đến 05:00pm</li> <li>Thứ Bảy: 10:00am đến 08:00pm</li> <li>Chủ nhật: <span>Đóng cửa</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>LIÊN HỆ NGAY</h3>
+							<form class="newsletter-box">
+								<div class="form-group">
+									<input class="" type="email" name="Email" placeholder="Email" />
+									<i class="fa fa-envelope"></i>
+								</div>
+								<button class="btn hvr-hover" type="submit">Submit</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-top-box">
+							<h3>THEO DÕI CHÚNG TÔI</h3>
+							<p>Chúng tôi mong muốn theo dõi bởi khách hàng.</p>
+							<ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+						</div>
+					</div>
+				</div>
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>GIỚi THIỆU</h4>
+                            <p> DU LỊCH TÂY NAM BỘ là đơn vị lữ hành được thành lập với đội ngũ nhân viên giàu kinh nghiệm, năng động và tận tụy trong công việc, luôn đặt chất lượng là tiêu chí phục vụ lên hàng đầu.</p> 							
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <h4>THÔNG TIN</h4>
+                            <ul>
+                                <li><a href="#">Về chúng tôi</a></li>
+                                <li><a href="#">Dịch vụ khách hàng</a></li>
+                                <!-- <li><a href="#">Terms &amp; Conditions</a></li> -->
+                                <li><a href="#">Chính sách bảo mật</a></li>
+                                <!-- <li><a href="#"></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Liên Hệ</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Đường 3/2, P.Xuân khánh, Q.Ninh kiều, TP.Cần Thơ </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Điện thoại <a href="tel:12312312312"> 012312312323</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">traveltaynambo@gmail.com.vn</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2023 <a href="#">Du lịch tây nam bộ</a> Design By :
+            <a href="https://html.design/">Nhóm 5</a></p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/dathang.js"></script>
+    
+</body>
+
+</html>
